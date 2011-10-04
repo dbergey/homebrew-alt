@@ -9,7 +9,7 @@ def postgres_installed?
 end
 
 class Php < Formula
-  url 'http://www.php.net/get/php-5.3.8.tar.bz2/from/this/mirror'
+  url 'http://snaps.php.net/php5.4-201110041430.tar.bz2/from/this/mirror'
   homepage 'http://php.net/'
   md5 '704cd414a0565d905e1074ffdc1fadfb'
   version '5.3.8'
