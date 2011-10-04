@@ -9,10 +9,10 @@ def postgres_installed?
 end
 
 class Php < Formula
-  url 'http://snaps.php.net/php5.4-201110041430.tar.bz2'
+  url 'http://downloads.php.net/stas/php-5.4.0beta1.tar.bz2'
   homepage 'http://php.net/'
-  md5 'db05a260cd635cb6f24d70bd28349ba8'
-  version '5.4'
+  md5 '28b7194b980c135c7d3248eded52c115'
+  version '5.4.0beta1'
 
   # So PHP extensions don't report missing symbols
   skip_clean ['bin', 'sbin']
