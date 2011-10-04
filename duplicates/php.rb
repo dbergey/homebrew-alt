@@ -11,8 +11,8 @@ end
 class Php < Formula
   url 'http://snaps.php.net/php5.4-201110041430.tar.bz2/from/this/mirror'
   homepage 'http://php.net/'
-  md5 '704cd414a0565d905e1074ffdc1fadfb'
-  version '5.3.8'
+  md5 'db05a260cd635cb6f24d70bd28349ba8'
+  version '5.4'
 
   # So PHP extensions don't report missing symbols
   skip_clean ['bin', 'sbin']
